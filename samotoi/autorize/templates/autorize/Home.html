@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet"/>
+    <link href="{% static 'autorize/css/index.css'%}" rel="stylesheet" type="text/css"/>
+    <link href="{% static 'autorize/css/standard.css'%}" rel="stylesheet" type="text/css"/>
+    <title>KOPP</title>
+  </head>
+  <header>
+        <div class="headerLeft">
+          <img width="61" height="75" src="{% static 'autorize/img/logo.png'%}"/>
+        </div>
+        <div class="headerRight">
+        <ul>
+              <li>
+                <a href="/">Главная</a>
+              </li>
+              <li>
+                <a href="#">О нас</a>
+              </li>
+              <li>
+                <a href="#">Тарифы</a>
+              </li>
+            </ul>
+            {% if user.is_authenticated %}
+              <a href="/logout"><button class="bt1">Выход</button></a>
+              <a href = "/profile"><img src="{% static 'autorize/img/user.png'%}"></img></a>
+            {% else %}
+              <a href="/login"><button class="bt1">Авторизация</button></a>
+            {% endif %}
+        </div>
+  </header>
+  
+  <body>
+    <div class="wrapper">
+        <div class="main">
+        <div class='page1'>
+          <div class="container1">
+            <h1>Комплексное тестирование<br/> у вас дома</h1>
+            <p>Определите свои реальные способности, общую <br/>и профессиональную мотивацию, а также<br/> личностные качества.</p>
+            <button class="bt2">Подробнее</button>
+          </div>
+          <div class="container2">
+            <a href="#"><img width="664" height="678" src="{% static 'autorize/img/startup.png'%}"/></a>
+            </div>
+        </div>
+        </div>
+    
+        <div class="main2">
+        <div class='page2'>
+          <div class="container3">
+            <div class='line'><h1>О нас</h1></div>
+            <p>В настоящее время базах кадрового потенциала <br/>
+              МНП «АРСИТ» более 25 тысяч человек: <br/>
+              школьников, студентов, специалистов и руководителей.  </p>
+          </div>
+          <div class="container4">
+            <img width="622" height="483" src="{% static 'autorize/img/photo1.png'%}"/>
+            </div>
+        </div>
+        </div>
+    
+        <div class="main3">
+        <div class='page3'>
+            <div class='line1'></div>
+              <h1>Подберите категорию под себя</h1>
+            <div class="container5">
+             <div class='card1 card'> 
+              <img class='icon' src="{% static 'autorize/img/briefcase.svg'%}"/>
+              <h3>Для обучающихся</h3>
+              <p>Мы вынуждены отталкиваться от того, что новая модель организационной деятельности однозначно определяет каждого.</p>
+             </div>
+    
+             <div class='card2 card'> 
+              <img class='icon' src="{% static 'autorize/img/notepad.svg'%}"/>
+              <h3>Для специалистов</h3>
+              <p>Мы вынуждены отталкиваться от того, что новая модель организационной деятельности однозначно определяет каждого.</p>
+             </div>
+    
+            <div class='card3 card'> 
+              <img class='icon' src="{% static 'autorize/img/chart.svg'%}"/>
+              <h3>Для организации</h3>
+              <p>Мы вынуждены отталкиваться от того, что новая модель организационной деятельности однозначно определяет каждого.</p>
+             </div>
+             </div>
+        </div>
+        </div>
+    
+        <div class="main4">
+          <div class='page4'>
+            <div class="container6">
+               <img width="622" height="483" src="{% static 'autorize/img/photo1.png'%}"/>
+            </div>
+            <div class="container7">
+              <div class='line1'></div>
+                <h1>Что такое КООП? </h1>
+                  <p>Опираясь на мировой и отечественный опыт в
+                    области<br/> профориентологии, мы разработали и 
+                    адаптировали к<br/> современным условиям КОПП для 
+                    различных социальных<br/> групп: школьников, 
+                    студентов, специалистов и<br/> руководителей, 
+                    работающих в различных отраслях и<br/> сферах 
+                    профессиональной деятельности.</p>
+                <button class="bt3">Подробнее</button>
+            </div> 
+        </div>
+        </div>
+    
+        <div class="main5">
+        <div class='page5'>
+            <div class='line1'></div>
+              <h1>Чем мы отличаемся от обычных тестов?</h1>
+          <div class='wrapper2'>
+            <div class='container8'>
+            <div class='advantages advantages1'><h4>Содержание КОПП<br/>проходят экспертизу у ведущих организаций в данной области</h4> </div>
+             <div class='advantages3 advantages'><h4>Итоги КОПП отвечают<br/> требованиям работодателей</h4></div>
+            </div>
+            <div class='container9'>
+            <img class='photo3' src="{% static 'autorize/img/idea.png'%}"/>
+            </div>
+            <div class='container10'>
+            <div class='advantages2 advantages'><h4>Многолетняя проверка на<br/>точность</h4></div>
+            <div class='advantages4 advantages'><h4>Отражает ваши реальные<br/>способности и знания</h4></div>
+            </div>
+          </div>
+          </div>
+          </div>
+    
+    
+          <div class="main6">
+        <div class='page6'>
+            <div class='line1'></div>
+              <h1>Отзывы</h1>
+            <div class="container11">
+             <div class='card4'> 
+             <div class='name'>
+              <img width="70" height="70" src="{% static 'autorize/img/Ellipse.png'%}"/>
+              <h3>Илья</h3>
+              </div>
+              <p>Как уже неоднократно упомянуто, явные признаки победы институционализации представлены в исключительно положительном свете. </p>
+             </div>
+    
+             <div class='card4'> 
+             <div class='name'>
+              <img width="70" height="70" src="{% static 'autorize/img/Ellipse.png'%}"/>
+              <h3>Кирилл</h3>
+              </div>
+              <p>Как уже неоднократно упомянуто, явные признаки победы институционализации представлены в исключительно положительном свете. </p>
+             </div>
+    
+             <div class='card4'> 
+             <div class='name'>
+              <img width="70" height="70" src="{% static 'autorize/img/Ellipse.png'%}"/>
+              <h3>Сергей</h3>
+              </div>
+              <p>Как уже неоднократно упомянуто, явные признаки победы институционализации представлены в исключительно положительном свете. </p>
+             </div>
+             </div>
+        </div>
+        </div>
+    
+      <div class="main7">
+        <div class='page7'>
+            <div class='line1'></div>
+              <h1>Контакты</h1>
+            <div class='container12'>
+    
+            <div class="container13">
+            <p>Связаться с нами</p>
+            <div class='icon'>
+            <img src="{% static 'autorize/img/watshap.png'%}"/>
+            <img width="41" height="31" class="icon1" src="{% static 'autorize/img/email.png'%}"/>
+            <img src="{% static 'autorize/img/telegram.png'%}"/>
+            </div>
+            </div>
+            <div class="container14">
+            <img src="{% static 'autorize/img/map.png'%}"/>
+            </div>
+            </div>
+          </div>
+        </div>
+    
+      </div>
+  </body>
+  <footer>
+    <div class="footer1">
+      <img width="61" height="75" src="{% static 'autorize/img/logo.png'%}"/>
+    </div>
+    <div class="footer2">
+      <ul>
+        <li><a>Войти</a></li>
+        <li><a>Тесты</a></li>
+        <li><a>Поддержка</a></li>
+        <li><a>Политика конфиденциальности</a></li>
+      </ul>
+    </div>
+    <div class="footer2">
+      <ul>
+        <li><a>Категории</a></li>
+        <li><a>О нас</a></li>
+        <li><a>Отзывы</a></li>
+        <li><a>Контакты</a></li>
+      </ul>
+    </div>
+    
+  </footer>
+</html>

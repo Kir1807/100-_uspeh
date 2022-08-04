@@ -1,0 +1,74 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet"/>
+    <link href="{% static 'autorize/css/index.css'%}" rel="stylesheet" type="text/css"/>
+    <link href="{% static 'autorize/css/standard.css'%}" rel="stylesheet" type="text/css"/>
+    <link href="{% static 'autorize/css/authorization.css'%}" rel="stylesheet" type="text/css"/>
+    <title>KOPP</title>
+  </head>
+  <header>
+        <div class="headerLeft">
+          <img width="61" height="75" src="{% static 'autorize/img/logo.png' %}"/>
+        </div>
+        <div class="headerRight">
+        <ul>
+              <li>
+                <a href="/">Главная</a>
+              </li>
+              <li>
+                <a href="#">О нас</a>
+              </li>
+              <li>
+                <a href="#">Тарифы</a>
+              </li>
+            </ul>
+  
+        <a href="#"><button class="bt1">Авторизация</button></a>
+        </div>
+  </header>
+  <body>
+    <div class="enter">
+        <form>
+        <div class="forma1">
+        <h1 class="en">Вход</h1>
+        <label>Email</label>
+          <input class="form" type="text" name="email"/>
+          <div>
+          <label>Пароль</label>
+            <input class="form" type="text" name="password"/>
+          </div>
+          <div class="bt4">
+          <a href="#"><button>Войти</button></a>
+          </div>
+          </div>
+
+        </form>
+    </div>
+    </body>
+    <footer>
+      <div class="footer1">
+        <img width="61" height="75" src="{% static 'autorize/img/logo.png' %}"/>
+      </div>
+      <div class="footer2">
+        <ul>
+          <li><a>Войти</a></li>
+          <li><a>Тесты</a></li>
+          <li><a>Поддержка</a></li>
+          <li><a>Политика конфиденциальности</a></li>
+        </ul>
+      </div>
+      <div class="footer2">
+        <ul>
+          <li><a>Категории</a></li>
+          <li><a>О нас</a></li>
+          <li><a>Отзывы</a></li>
+          <li><a>Контакты</a></li>
+        </ul>
+      </div>
+      
+    </footer>

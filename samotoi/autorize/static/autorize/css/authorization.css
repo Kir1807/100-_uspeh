@@ -1,0 +1,45 @@
+body{
+    height: 500px;
+}
+
+.forma1{
+    width: 524px;
+    height: 414px; 
+
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+.enter{
+    margin: 190px 538px 290px 538px;
+}
+
+input {
+    all: unset;
+  }
+
+input, label {
+    display:block;
+}
+
+.en{
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.form{
+    width: 494px;
+    height: 53px;
+    background-color: #C2DCEE;
+    border-radius: 10px;
+    padding-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+.bt4{
+    text-align: center;
+}

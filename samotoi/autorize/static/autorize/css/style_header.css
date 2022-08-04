@@ -1,0 +1,135 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    font-size: 14px;
+}
+   /* шапка */
+header {
+    display: flex;
+    justify-content: center;
+    border-bottom: solid #006BB9 1px;
+    margin: 44px auto;
+    max-width: 85%;
+    box-sizing: border-box;
+    align-items: center;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding-left: 5px;
+    color: #006BB9;
+    font-size: 24px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+}
+header ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 220px;
+    justify-content: center;
+    align-items: center;
+}
+header ul a {
+    text-decoration: none;
+    display: block;
+}
+header ul li {
+    display: inline-block;
+    margin-right: 50px;
+}
+header .btns {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    background-color: #9339FA;
+    border-radius: 24px;
+    -webkit-transition: all .4s ease;
+    -o-transition: all;
+    transition: all .4s ease;
+}
+header .btns:hover {
+    background-color: #d4aeff;
+}
+
+header .btns>a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding: 5px 5px;
+    padding: 6px 16px;
+    }
+
+.logo_text{
+    display: flex;
+}
+
+.logo_text h1{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* Подвал сайта */
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-top: solid #006BB9 1px;
+    margin: 44px auto;
+    max-width: 85%;
+    box-sizing: border-box;
+    align-items: center;
+    padding-top: 20px;
+}
+footer nav {
+    display: flex;
+    flex-direction: row;
+
+}
+footer ul {
+    list-style-type: none;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: baseline;
+}
+.logo p, .logo {
+    padding-left: 10px;
+}
+.icons_contact {
+    display: flex;
+    flex-direction: row;
+    align-self: baseline;
+    align-items: center;
+}
+.icons_contact img {
+    padding-left: 15px;
+}
+.add_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+}
+ul li a {
+    color: #006BB9;
+}
+footer p {
+    color: #006BB9;
+}
+.add_info, .add_info a {
+    color: #006BB9;
+}
+

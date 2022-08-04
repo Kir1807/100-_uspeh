@@ -1,0 +1,488 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    height: 7650px;
+  }
+  ::-webkit-scrollbar { 
+    display: none; 
+  }
+  
+  button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  h4{
+    color: #0071C2;
+    line-height: 30px;
+    font-weight: 500;
+  }
+  
+  /*#0071C2;
+  #9339FA;*/
+  
+  a:active, 
+  a:hover,  
+  a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+
+  button{
+    height: 50px;
+    border-radius: 50px;
+    background-color: #0071C2;
+    color: #ffff;
+  }
+  
+  h1{
+    font-size: 35px;
+    font-weight: 500;
+    color: #0071C2;
+  }
+  
+/* Шапка */
+header{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 199px 0px 199px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #0071C2;
+}
+
+.headerRight ul{
+  display: flex;
+}
+
+div.headerRight{
+    display: flex;
+  }
+
+h3.headerLeft{
+      margin: auto;
+      color: #0071C2;
+}
+
+.headerRight{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+    
+.headerRight li{
+    margin-right: 50px;
+    color: #0071C2;
+}
+
+.bt1:hover{
+      background-color: #9339FA;
+      cursor: pointer;
+    }
+    
+    
+.headerRight a{
+      color: #0071C2;
+    }
+ 
+.headerRight a:hover{
+      color: #9339FA;
+    }
+
+
+.bt1{
+  width: 173px;
+}
+
+/* Первая страница*/
+
+.page1{
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 211px 0px 211px;
+  }
+
+.page1 p{ line-height: 28px;}
+
+.page1 h1{ line-height: 50px;}
+
+.bt2{
+     width: 200px;
+  }
+.bt2:hover{background-color: #9339FA;}
+
+
+.container1{
+  margin-top: 150px;
+}
+
+.container1 h1{
+    font-size: 40px;
+    font-weight: 500;
+    color: #305BF4;
+  }
+
+.container1 p{
+    color: #305BF4;
+    font-weight: 400;
+    margin-bottom: 48px;
+  }
+
+
+/* Вторая страница*/
+.main2{
+  width: 1920px;
+  height: 1220px;
+  background-image: url("../fon/backg1.png");
+  background-position: 26px 0px 0px 0px;
+}
+
+.page2{
+  display: flex;
+  justify-content: space-between;
+  padding: 334px 328px 0px 328px;
+  }
+
+ .line{
+      width: 122px;
+      height: 65px;
+      border-top: 1px solid #fff;
+    }
+
+.container3{
+      padding: 150px 0px 0px 0px;
+    }
+
+.container3 h1{
+      color: #fff;
+      width: 500;
+      line-height: 50px;
+    }
+.container3 p{ 
+      line-height: 33.6px;
+      color: #fff;
+    }
+
+
+
+/*Третья страница*/
+
+.page3{
+  margin: 200px 211px 0px 211px;
+}
+
+.page3 h1{
+    text-align: center;
+  }
+
+.line1{
+    width: 108px;
+    height: 0px;
+    border: 1px solid #305BF4;
+    margin: auto;
+  }
+  
+
+.container5{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.card1,.card2,.card3{
+      width: 300px;
+      height: 230px;
+      border: 1px solid #006bb947;
+      border-top: 5px solid  #006bb947;
+      border-radius: 18px;
+      padding: 75px 62px 75px 62px;
+      margin-top: 140px;
+
+    }
+
+.card h3{
+      width: 400;
+      color: #006BB9;
+      line-height: 29.26px;
+    }
+
+.card p{
+      width: 400;
+      line-height: 25.6px;
+      color: #006BB9;
+      font-size: 18px;
+    }
+  
+
+
+.card:hover{
+    cursor: pointer;
+    border: 1px solid rgb(203, 158, 255);
+    border-top: 5px solid  #9339FA ;
+}
+
+.card:hover p, h3{
+      color: #9339fa;
+    }
+
+.card:hover .icon{
+      filter: hue-rotate(-285deg);
+    }
+    
+
+/* Четвертая страница*/
+
+.main4{
+  width: 1920px;
+  height: 1220px;
+  background-image: url("../fon/backg2.png");
+  margin-top: 300px;
+}
+
+.page4{
+    display: flex;
+    justify-content: space-between;
+    padding: 409px 350px 0px 328px;
+  }
+
+  .page4 h1{
+    color: #fff;
+    width: 500;
+    line-height: 50px;
+  }
+  .page4 p{ 
+    line-height: 33.6px;
+    color: #fff;
+  }
+
+  .line1{
+    width: 108px;
+    height: 0px;
+    border: 1px solid #fff;
+    margin-left: 0px;
+  }
+
+  .container7{
+    padding-top: 32px;
+  }
+
+
+.bt3{
+  margin-top: 32px;
+  color: #305BF4;
+  background-color: #fff;
+  width: 200px;
+}
+.bt3:hover{background-color: #004d85; color: #fff;}
+
+
+ /*Пятая страница*/
+.wrapper2{
+  justify-content: center;
+}
+
+.page5{
+    margin: 200px 211px 0px 211px;
+    text-align: center;
+}
+
+.page5 h4{
+      margin-top: 100px;
+    }
+
+.advantages1 h4{
+      margin-top: 70px;
+    }
+
+.page5 h1{
+    text-align: center;
+  }
+
+.line1{
+      width: 108px;
+      height: 0px;
+      border: 1px solid #305BF4;
+      margin: auto;
+    }
+
+.wrapper2{
+      display: flex;
+      margin-top: 150px;
+    }
+
+
+.advantages{
+    width: 365px;
+    height: 186px;
+    border: 1px solid rgba(0, 107, 185, 0.28);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    
+
+    
+.advantages1{
+    margin-right: 129px;
+    background-image: url("../fon/one.png");
+    }
+    
+.advantages3{
+    margin-top: 117px;
+    margin-left: 129px;
+    background-image: url("../fon/three.png");
+    }
+    
+    
+
+.advantages4{
+    margin-top: 117px;
+    margin-right: 129px;
+    background-image: url("../fon/four.png");
+    }
+    
+.advantages2{
+    margin-left: 129px;
+    background-image: url("../fon/two.png");
+    }
+    
+
+.photo3{
+      margin-top: 123px;
+    }
+  
+
+  /*Шестая страница*/
+
+.page6{ 
+    margin: 300px 211px 0px 211px;
+  }
+
+.container11{
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+.name{
+    display: flex;
+  }
+
+.page6 h1{
+    text-align: center;
+  }
+
+.line1{
+    width: 108px;
+    height: 0px;
+    border: 1px solid #305BF4;
+    margin: auto;
+  }
+
+
+
+.card4{
+    width: 300px;
+    height: 230px;
+    border: 1px solid rgba(0, 107, 185, 0.28);
+    border-radius: 18px;
+    padding: 75px 62px 75px 62px;
+    margin-top: 140px;
+   }
+
+.container11 p{
+     color: #305BF4;
+     line-height: 33.6px;
+   }
+
+   h3{
+     color: #305BF4;
+     margin-left: 10px;
+   }
+
+
+/*Седьмая страница*/
+
+.page7{ 
+  margin: 300px 211px 0px 211px;
+}
+
+.container12{
+    display: flex;
+    justify-content: space-between;
+  }
+
+.page7 h1{
+    text-align: center;
+  }
+
+.line1{
+    width: 108px;
+    height: 0px;
+    border: 1px solid #305BF4;
+    margin: auto;
+  }
+
+
+.container12{
+  margin-top: 200px;
+}
+.container12 p{
+    color: #006BB9;
+    line-height: 33.6px;
+    font-size: 30px;
+  }
+
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+  }
+
+.icon1{
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+
+
+/*Подвал*/
+
+footer{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 200px 199px 0px 199px;
+  padding-top: 50px;
+  border-top: 1px solid #305BF4;
+}
+
+.footer2 li{
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 17.07px;
+   color: #305BF4;
+   }
+
+
+.footer1{
+      display: flex;
+      margin-top: auto;
+      margin-bottom: auto;
+      color: #305BF4;
+    }
+
+
+  
+    
+.footer2 li{
+        margin-bottom: 15px;
+      }
+
+
+html{
+  scroll-behavior: smooth;
+}
+    
+
+    
+

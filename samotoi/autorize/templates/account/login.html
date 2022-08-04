@@ -1,0 +1,22 @@
+{% extends "account/base.html" %}
+{% load i18n %}
+{% load account%}
+{% block content %}
+<div class="enter">
+  <form class="login" method="POST" action="{% url 'account_login' %}">
+    <div class="forma1">
+      {% csrf_token %}
+      <h1 class="en">Авторизация</h1>
+      <label>Логин: </label>
+      <input class = "form" type="text" name="login" placeholder="Имя пользователя" autocomplete="username" maxlength="150" required id="id_login">
+      <div>
+        <label>Пароль: </label>
+        <input class = "form" type="password" name="password" placeholder="Пароль" autocomplete="current-password" required id="id_password">
+      </div> 
+      <div class = "bt4">
+        <button class="primaryAction" type="submit">{% trans "Sign In" %}</button>
+      </div>   
+    </div> 
+  </form> 
+</div>
+{% endblock %}

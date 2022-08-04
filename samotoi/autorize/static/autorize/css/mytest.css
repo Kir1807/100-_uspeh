@@ -1,0 +1,34 @@
+.test_1{
+    width: 534px;
+    height: 163px;
+    border: 1px solid #0071C2;
+    border-radius: 10px;
+    border-left: 12px solid #0071C2;
+    margin-top: 68px;
+}
+
+.name_3{
+    color: #0071C2;
+}
+
+.name_2{
+    font-weight: 500;
+}
+
+.heading_1{
+    margin-left: 32px;
+    margin-top: 46px;
+}
+
+.testcard:hover p {
+    color: #9339fa;
+}
+
+.testcard:hover h2 {
+    color: #9339fa;
+}
+
+.test_1:hover {
+    border: 1px solid #9339fa;
+    border-left: 12px solid #9339fa;
+}

@@ -1,0 +1,113 @@
+body{
+    height: 2000px;
+}
+
+/*#0071C2;
+ #9339FA;*/
+
+ 
+ .headerRight ul li{
+    display: flex;
+    align-items: center;
+}
+    
+
+
+.office{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1920px;
+    background-image: url("../fon/rectangle.png");
+    padding: 180px 200px 0px 120px;
+}
+
+.nik{
+    display: flex;
+    align-items: center;
+}
+
+
+.block_1{
+width: 380px;
+height: 826px;
+padding: 80px 89px 0px 89px;
+background: #FFFFFF;
+box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+}
+
+.nav_1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+
+.line_1{
+    width: 348px;
+    height: 0px;
+  border: 1px solid rgba(0, 107, 185, 0.61);
+  margin-top: 24px;
+}
+
+
+.nav_2{
+    margin-top: 56px;
+    margin-right: 40px;
+}
+.nav_2 ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+            
+.nav_2 li{
+    font-size: 20px; 
+    margin-bottom: 45px;
+    border-bottom: 1px solid #ffffff;
+}
+  
+.nav_2 li:hover,
+.nav_2 li:hover :active{
+    border-bottom: 1px solid #9339FA;
+    color: #9339FA;
+}
+
+
+.block_2{
+width: 1007px;
+height: 1055px;
+padding: 100px 100px 0px 100px;
+background: #FFFFFF;
+box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+}
+
+label{
+    font-size: 20px;
+    font-weight: 500;
+    }
+
+.save{
+    width: 260px;
+    margin-top: 80px;
+    }
+
+form{
+    display: flex;
+    flex-direction: column
+    }
+        
+
+.message_1{
+        text-align: center;
+        margin-top: 200px;
+    }
+
+.message_2{
+    margin-bottom: 78px;
+}
+
+
