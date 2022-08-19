@@ -24,6 +24,9 @@ from django.http import JsonResponse
 #         'time': quiz.time
 #     })
 
+def admin(request):
+    return render(request, 'autorize/moffice.html')
+
 
 def gl(request):
     return render(request, 'autorize/Home.html')
@@ -31,6 +34,7 @@ def gl(request):
 
 def login(request):
     return render(request, 'account/login.html')
+
 
 def logout(request):
     return render(request, 'account/logout.html')
