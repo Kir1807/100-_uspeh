@@ -1,5 +1,5 @@
 body {
-    height: 7650px;
+    height: 7000px;
   }
 
 /* Шапка */
@@ -90,7 +90,7 @@ h3.headerLeft{
 
 /* Вторая страница*/
 .main2{
-  height: 1220px;
+  height: 1100px;
   background-image: url("../fon/backg1.png");
   background-position: 26px 0px 0px 0px;
 }
@@ -98,7 +98,7 @@ h3.headerLeft{
 .page2{
   display: flex;
   justify-content: space-between;
-  padding: 334px 328px 0px 328px;
+  padding: 298px 328px 0px 328px;
   align-items: center;
   }
 
@@ -123,7 +123,7 @@ h3.headerLeft{
 /*Третья страница*/
 
 .page3{
-  margin: 200px 211px 0px 211px;
+  margin: 110px 211px 0px 211px;
 }
 
 .page3 h1{
@@ -191,16 +191,16 @@ h3.headerLeft{
 /* Четвертая страница*/
 
 .main4{
-  height: 1220px;
+  height: 1100px;
   background-image: url("../fon/backg2.png");
-  margin-top: 300px;
+  margin-top: 170px;
 }
 
 .page4{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 409px 350px 0px 328px;
+    padding: 320px 350px 0px 328px;
   }
 
   .page4 h1{
@@ -240,7 +240,7 @@ h3.headerLeft{
 }
 
 .page5{
-    margin: 200px 211px 0px 211px;
+    margin: 100px 211px 0px 211px;
     text-align: center;
 }
 
