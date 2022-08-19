@@ -1,8 +1,8 @@
 from django.db import models
 
 DIF_CHOICES = (
-    ('easy', 'easy')
-    ('medium', 'medium')
+    ('easy', 'easy'),
+    ('medium', 'medium'),
     ('hard', 'hard')
 )
 
