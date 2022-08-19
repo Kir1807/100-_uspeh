@@ -9,11 +9,12 @@
     <link href="{% static 'autorize/css/index.css'%}" rel="stylesheet" type="text/css"/>
     <link href="{% static 'autorize/css/standard.css'%}" rel="stylesheet" type="text/css"/>
     <link href="{% static 'autorize/css/user.css'%}" rel="stylesheet"/>
+    <link href="{% static 'autorize/css/mytest.css'%}" rel="stylesheet"/>
     <title>KOPP</title>
   </head>
-<header>
+  <header>
     <div class="headerLeft">
-      <a href="/"><img width="61" height="75" src="{% static 'autorize/img/logo.png'%}"/></a>
+      <img width="61" height="75" src="{% static 'autorize/img/logo.png'%}"/>
     </div>
     <div class="headerRight">
     <ul>
@@ -36,7 +37,7 @@
         </a>
     </div>
   </header>
-<body>
+  <body>
     <div class="office">
         <div class="block_1">
             <div class="nav_1">
@@ -46,44 +47,35 @@
                 <div class="nav_2">
               <nav>
                 <ul>
-                    <a href="#"><li>Личные данные</li></a>
-                    <a href="/history"><li>Мои тесты</li></a>
-                    <a href="/results"><li>Результаты тестов</li></a>
-                    <a href="/consultation"><li>Консультация</li></a>
+                  <a href="#"><li>Добавление пользователей</li></a>
+                  <a href="#"><li>База данных</li></a>
+                  <a href="#"><li>Консультация</li></a>
+                  <a href="#"><li>CMS</li></a>
                 </ul>
               </nav>
                 </div>
-                <a href="/logout"><button>Выйти</button></a>
+                <a href="#"><button>Выйти</button></a>
         </div>
         </div>
         <div class="block_2">
-            <form>
-                <div>
-                 <label>ФИО</label>
-                <input class="form" type="text" name="fio"/>
-                </div>
-                <div>
-                 <label>Email</label>
-                <input class="form" type="text" name="email"/>
-                </div>
-                <div>
-                <label>Пароль</label>
-                  <input class="form" type="text" name="password"/>
-                </div>
-                <div>
-                <label>Телефон</label>
-                  <input class="form" type="text" name="phone"/>
-                </div>
-                <div >
-                <a href="#"><button class="save">Сохранить изменения</button></a>
-                </div>
-                </form>
+            <h1>
+              Ваши тесты
+            </h1>
+          <a class="testcard" href="/test">
+           <div class="test_1">
+             <div class="heading_1" >
+              <h2 class="name_2">Способности</h2>
+              <p class="name_3">Тип: Обучающийся</p>
+            </div>
+            </div>
+          </a>
         </div>
  </div>
-</body>
+  </body>
+
 <footer>
     <div class="footer1">
-      <img width="61" height="75" src="{% static 'autorize/img/logo.png'%}"/>
+      <img width="61" height="75" src="{% static 'autorize/img/user.png'%}"/>
     </div>
     <div class="footer2">
       <ul>
