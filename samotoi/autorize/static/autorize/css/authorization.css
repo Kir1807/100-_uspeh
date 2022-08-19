@@ -2,7 +2,7 @@ body{
     height: 500px;
 }
 
-.forma1{
+.form1{
     width: 524px;
     height: 414px; 
 
@@ -17,13 +17,12 @@ form{
     margin: 190px 538px 290px 538px;
 }
 
-input {
-    all: unset;
-  }
+
 
 input, label {
     display:block;
 }
+
 
 .en{
     margin-bottom: 60px;

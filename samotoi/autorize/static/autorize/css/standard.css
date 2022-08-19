@@ -75,10 +75,6 @@ p{
     justify-content: center;
 }
 
-input {
-  all: unset;
-}
-
 input, label {
   display:block;
 }
