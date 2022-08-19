@@ -8,33 +8,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet"/>
     <link href="{% static 'autorize/css/index.css'%}" rel="stylesheet" type="text/css"/>
     <link href="{% static 'autorize/css/standard.css'%}" rel="stylesheet" type="text/css"/>
+    <meta name="viewport" content="width=device-width">
     <title>KOPP</title>
   </head>
+
   <header>
-        <div class="headerLeft">
-          <img width="61" height="75" src="{% static 'autorize/img/logo.png'%}"/>
-        </div>
-        <div class="headerRight">
-        <ul>
-              <li>
-                <a href="/">Главная</a>
-              </li>
-              <li>
-                <a href="#">О нас</a>
-              </li>
-              <li>
-                <a href="#">Тарифы</a>
-              </li>
-            </ul>
-            {% if user.is_authenticated %}
-              <a href="/logout"><button class="bt1">Выход</button></a>
-              <a href = "/profile"><img src="{% static 'autorize/img/user.png'%}"></img></a>
-            {% else %}
-              <a href="/login"><button class="bt1">Авторизация</button></a>
-            {% endif %}
-        </div>
-  </header>
-  
+    <div class="headerLeft">
+      <img width="61" height="75" src="{% static 'autorize/img/logo.png'%}" class="img-0"/>
+    </div>
+    <div class="headerRight">
+    <ul>
+          <li>
+            <a href="/">Главная</a>
+          </li>
+          <li>
+            <a href="#">О нас</a>
+          </li>
+          <li>
+            <a href="#">Тарифы</a>
+          </li>
+        </ul>
+        {% if user.is_authenticated %}
+          <a href="/logout"><button class="bt1">Выход</button></a>
+          <a href = "/profile"><img src="{% static 'autorize/img/user.png'%}"></img></a>
+        {% else %}
+          <a href="/login"><button class="bt1">Авторизация</button></a>
+        {% endif %}
+        
+    </div>
+  </header>  
+
+
   <body>
     <div class="wrapper">
         <div class="main">
@@ -45,12 +49,13 @@
             <button class="bt2">Подробнее</button>
           </div>
           <div class="container2">
-            <a href="#"><img width="664" height="678" src="{% static 'autorize/img/startup.png'%}"/></a>
+            <a href="#"><img width="664" height="678" src="{% static 'autorize/img/startup.png'%}" class="img-1"/></a>
             </div>
         </div>
         </div>
-    
-        <div class="main2">
+        
+        
+       <div class="main2">
         <div class='page2'>
           <div class="container3">
             <div class='line'><h1>О нас</h1></div>
@@ -59,7 +64,7 @@
               школьников, студентов, специалистов и руководителей.  </p>
           </div>
           <div class="container4">
-            <img width="622" height="483" src="{% static 'autorize/img/photo1.png'%}"/>
+            <img width="622" height="483" src="{% static 'autorize/img/photo1.png'%}" class="img-2"/>
             </div>
         </div>
         </div>
@@ -67,22 +72,22 @@
         <div class="main3">
         <div class='page3'>
             <div class='line1'></div>
-              <h1>Подберите категорию под себя</h1>
+              <h1>Наши тесты</h1>
             <div class="container5">
              <div class='card1 card'> 
-              <img class='icon' src="{% static 'autorize/img/briefcase.svg'%}"/>
+              <img class='iconx' src="{% static 'autorize/img/briefcase.svg'%}" />
               <h3>Для обучающихся</h3>
               <p>Мы вынуждены отталкиваться от того, что новая модель организационной деятельности однозначно определяет каждого.</p>
              </div>
     
              <div class='card2 card'> 
-              <img class='icon' src="{% static 'autorize/img/notepad.svg'%}"/>
+              <img class='iconx' src="{% static 'autorize/img/notepad.svg'%}"/>
               <h3>Для специалистов</h3>
               <p>Мы вынуждены отталкиваться от того, что новая модель организационной деятельности однозначно определяет каждого.</p>
              </div>
     
             <div class='card3 card'> 
-              <img class='icon' src="{% static 'autorize/img/chart.svg'%}"/>
+              <img class='iconx' src="{% static 'autorize/img/chart.svg'%}"/>
               <h3>Для организации</h3>
               <p>Мы вынуждены отталкиваться от того, что новая модель организационной деятельности однозначно определяет каждого.</p>
              </div>
@@ -93,10 +98,10 @@
         <div class="main4">
           <div class='page4'>
             <div class="container6">
-               <img width="622" height="483" src="{% static 'autorize/img/photo1.png'%}"/>
+               <img width="622" height="483" src="{% static 'autorize/img/photo1.png'%}" class="img-3"/>
             </div>
             <div class="container7">
-              <div class='line1'></div>
+              <div class='line2'></div>
                 <h1>Что такое КООП? </h1>
                   <p>Опираясь на мировой и отечественный опыт в
                     области<br/> профориентологии, мы разработали и 
@@ -172,13 +177,13 @@
             <div class="container13">
             <p>Связаться с нами</p>
             <div class='icon'>
-            <img src="{% static 'autorize/img/watshap.png'%}"/>
-            <img width="41" height="31" class="icon1" src="{% static 'autorize/img/email.png'%}"/>
-            <img src="{% static 'autorize/img/telegram.png'%}"/>
+            <img src="{% static 'autorize/img/watshap.png'%}" class="icon-2"/>
+            <img width="41" height="31" class="icon1" src="{% static 'autorize/img/email.png'%}" class="icon-2"/>
+            <img src="{% static 'autorize/img/telegram.png'%}" class="icon-2"/>
             </div>
             </div>
             <div class="container14">
-            <img src="{% static 'autorize/img/map.png'%}"/>
+            <img src="{% static 'autorize/img/map.png'%}" class="img-4"/>
             </div>
             </div>
           </div>

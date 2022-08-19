@@ -1,50 +1,7 @@
 body {
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
     height: 7650px;
   }
-  ::-webkit-scrollbar { 
-    display: none; 
-  }
-  
-  button {
-    padding: 0;
-    border: none;
-    font: inherit;
-    color: inherit;
-    background-color: transparent;
-    cursor: pointer;
-  }
-  
-  h4{
-    color: #0071C2;
-    line-height: 30px;
-    font-weight: 500;
-  }
-  
-  /*#0071C2;
-  #9339FA;*/
-  
-  a:active, 
-  a:hover,  
-  a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-  }
 
-  button{
-    height: 50px;
-    border-radius: 50px;
-    background-color: #0071C2;
-    color: #ffff;
-  }
-  
-  h1{
-    font-size: 35px;
-    font-weight: 500;
-    color: #0071C2;
-  }
-  
 /* Шапка */
 header{
   display: flex;
@@ -133,7 +90,6 @@ h3.headerLeft{
 
 /* Вторая страница*/
 .main2{
-  width: 1920px;
   height: 1220px;
   background-image: url("../fon/backg1.png");
   background-position: 26px 0px 0px 0px;
@@ -143,16 +99,13 @@ h3.headerLeft{
   display: flex;
   justify-content: space-between;
   padding: 334px 328px 0px 328px;
+  align-items: center;
   }
 
  .line{
       width: 122px;
       height: 65px;
       border-top: 1px solid #fff;
-    }
-
-.container3{
-      padding: 150px 0px 0px 0px;
     }
 
 .container3 h1{
@@ -197,9 +150,8 @@ h3.headerLeft{
       border: 1px solid #006bb947;
       border-top: 5px solid  #006bb947;
       border-radius: 18px;
-      padding: 75px 62px 75px 62px;
       margin-top: 140px;
-
+      padding: 50px 30px 45px 30px;
     }
 
 .card h3{
@@ -223,7 +175,11 @@ h3.headerLeft{
     border-top: 5px solid  #9339FA ;
 }
 
-.card:hover p, h3{
+.card:hover p{
+      color: #9339fa;
+    }
+
+.card:hover h3{
       color: #9339fa;
     }
 
@@ -235,7 +191,6 @@ h3.headerLeft{
 /* Четвертая страница*/
 
 .main4{
-  width: 1920px;
   height: 1220px;
   background-image: url("../fon/backg2.png");
   margin-top: 300px;
@@ -244,6 +199,7 @@ h3.headerLeft{
 .page4{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 409px 350px 0px 328px;
   }
 
@@ -257,12 +213,12 @@ h3.headerLeft{
     color: #fff;
   }
 
-  .line1{
+  .line2{
     width: 108px;
     height: 0px;
     border: 1px solid #fff;
-    margin-left: 0px;
   }
+
 
   .container7{
     padding-top: 32px;
@@ -383,11 +339,11 @@ h3.headerLeft{
 
 
 .card4{
-    width: 300px;
-    height: 230px;
+  width: 300px;
+  height: 230px;
     border: 1px solid rgba(0, 107, 185, 0.28);
     border-radius: 18px;
-    padding: 75px 62px 75px 62px;
+    padding: 40px 30px 100px 30px;
     margin-top: 140px;
    }
 
@@ -426,7 +382,7 @@ h3.headerLeft{
 
 
 .container12{
-  margin-top: 200px;
+  margin-top: 150px;
 }
 .container12 p{
     color: #006BB9;
@@ -486,3 +442,112 @@ html{
 
     
 
+@media (max-width:1700px) {
+
+ /*Шапка*/
+
+ .img-0{
+   width: 51px;
+   height: 61px;
+ }
+
+ .headerRight{
+  display: flex;
+  align-items: center;
+ }
+
+ .headerRight a{
+   font-size: 14px;
+ }
+
+ .bt1, .bt2{
+   width: 150px;
+   height: 40px;
+   font-size: 14px;
+ }
+
+ /*Главная*/
+  .container1 h1 {
+    font-size: 30px;
+  }
+
+  .img-1{
+    width: 564px;
+    height: 578px;
+  }
+  
+  .container1 p{
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+
+  /*О нас*/
+  .container3 h1 {
+    font-size: 30px;
+  }
+
+  .line {
+    width: 90px;
+}
+
+.container3 p{
+  font-size: 14px;
+}
+
+.img-2{
+  width: 422px;
+  height: 283px;
+}
+
+.page2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 405px 300px 0px 300px;
+  align-items: center;
+}
+  /*Категории*/
+  .page3 h1{
+    font-size: 30px;
+  }
+
+  .card1, .card2, .card3 {
+    font-size: 15px;
+    padding: 40px 10px 25px 10px;
+  }
+  .card p{
+    font-size: 14px;
+  }
+
+  .iconx{
+    width: 25px;
+    height: 46px;
+  }
+
+
+  /*Что такое КОПП*/
+  .img-3{
+    width: 422px;
+    height: 283px;
+  }
+  
+  .page4 h1{
+    font-size: 30px;
+  }
+
+  .page4 p{
+    font-size: 14px;
+  }
+
+  .bt3{
+    width: 150px;
+  }
+  /*Преимущества*/
+  /*Отзывы*/
+  /*Контакты*/
+  .img-4{
+    width: 778px;
+    height: 350px;
+  }
+ 
+  /*Подвал*/
+}
