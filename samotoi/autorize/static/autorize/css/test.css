@@ -12,6 +12,12 @@ main{
     padding-right: 200px;
 }
 
+.test-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 p{
     font-size: 20px;
 }
@@ -60,3 +66,38 @@ p{
     margin-top: 32px;
 }
 
+.timer__items {
+    display: flex;
+    font-size: 18px;
+
+  }
+
+  .timer__item {
+    position: relative;
+    min-width: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+  .timer__item::before {
+    content: attr(data-title);
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    font-size: 14px;
+  }
+  .timer__item:not(:last-child)::after {
+    content: ':';
+    position: absolute;
+    right: -7px;
+  }
+
+  .test_title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }

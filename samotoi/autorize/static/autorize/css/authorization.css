@@ -17,12 +17,10 @@ form{
     margin: 190px 538px 290px 538px;
 }
 
-
-
-input, label {
-    display:block;
+.checbox{
+    display: flex;
+    margin-bottom: 50px;
 }
-
 
 .en{
     margin-bottom: 60px;
