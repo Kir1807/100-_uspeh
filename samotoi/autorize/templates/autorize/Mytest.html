@@ -1,24 +1,24 @@
 <!DOCTYPE html>
-{% load static %}
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet"/>
-    <link href="{% static 'autorize/css/index.css'%}" rel="stylesheet" type="text/css"/>
-    <link href="{% static 'autorize/css/standard.css'%}" rel="stylesheet" type="text/css"/>
-    <link href="{% static 'autorize/css/user.css'%}" rel="stylesheet"/>
+    <link href="./src/style/index.css" rel="stylesheet"/>
+    <link href="./src/style/standard.css" rel="stylesheet"/>
+    <link href="./src/style/user.css" rel="stylesheet"/>
+    <link href="./src/style/mytest.css" rel="stylesheet"/>
     <title>KOPP</title>
   </head>
   <header>
     <div class="headerLeft">
-      <img width="61" height="75" src="{% static 'autorize/img/logo.png'%}"/>
+      <img width="61" height="75" src="public/img/logo.png"/>
     </div>
     <div class="headerRight">
     <ul>
           <li>
-            <a href="/">Главная</a>
+            <a href="#">Главная</a>
           </li>
           <li>
             <a href="#">О нас</a>
@@ -30,8 +30,8 @@
 
       <a href="#">
       <div class='nik'>
-          <img src="{% static 'autorize/img/user.png'%}" ></img>
-          <h4>№674533</h4>
+          <img src='public/img/user.png'></img>
+          <h4>Кирилл</h4>
           </div>
         </a>
     </div>
@@ -40,33 +40,40 @@
     <div class="office">
         <div class="block_1">
             <div class="nav_1">
-                <img class="user_2" src="{% static 'autorize/img/user2.png'%}" ></img>
-                <h2 class="name_1">№674533</h2>
+                <img class="user_2" src="public/img/user2.png"></img>
+                <h2 class="name_1">Илья Кириллов</h2>
                 <div class="line_1"></div>
                 <div class="nav_2">
               <nav>
                 <ul>
-                  <a href="/profile"><li>Мои тесты</li></a>
-                  <a href="#"><li>Результаты тестов</li></a>
-                  <a href="consultation"><li>Консультация</li></a>
+                  <a href="#"><li>Мои тесты</li></a>
+                  <a href="/results"><li>Результаты тестов</li></a>
+                  <a href="/consultation"><li>Консультация</li></a>
                 </ul>
               </nav>
                 </div>
-                <a href="/logout"><button>Выйти</button></a>
+                <a href="#"><button>Выйти</button></a>
         </div>
         </div>
         <div class="block_2">
             <h1>
               Ваши тесты
             </h1>
-            <h2 class="message_1">Тут пока что пусто</h2>
+          <a class="testcard">
+           <div class="test_1">
+             <div class="heading_1" >
+              <h2 class="name_2">Способности</h2>
+              <p class="name_3">Тип: Обучающийся</p>
+            </div>
+            </div>
+          </a>
         </div>
  </div>
   </body>
 
 <footer>
     <div class="footer1">
-      <img width="61" height="75" src="{% static 'autorize/img/logo.png'%}"/>
+      <img width="61" height="75" src="public/img/logo.png"/>
     </div>
     <div class="footer2">
       <ul>

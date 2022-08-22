@@ -17,15 +17,7 @@ def logout(request):
 
 
 def profile(request):
-    return render(request, 'autorize/User.html')
-
-
-#def mytest(request):
-    #return render(request, 'autorize/Mytest.html')
-
-
-#def test(request):
-    #return render(request, 'autorize/Test.html')
+    return render(request, 'autorize/Mytest.html')
 
 
 def results(request):
@@ -34,10 +26,6 @@ def results(request):
 
 def access(request):
     return render(request, 'autorize/Access.html')
-
-
-def results(request):
-    return render(request, 'autorize/UResults.html')
 
 
 def consultation(request):
