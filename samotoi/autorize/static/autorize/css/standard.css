@@ -75,12 +75,14 @@ p{
     justify-content: center;
 }
 
-input {
-  all: unset;
-}
 
 input, label {
   display:block;
+  border: none;
+}
+
+input[type="radio"]{
+  display: none;
 }
 
 .form{

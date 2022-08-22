@@ -32,21 +32,23 @@
   </header>
   <body>
     <div class="enter">
-        <form>
         
-        <div class="forma1">
+      <form class="form1" method="post" action="#" name="authorization">
         <h1 class="en">Вход</h1>
-        <label>Email</label>
-          <input class="form" type="text" name="email"/>
-          <div>
+          <label>Email</label>
+          <input class="form" type="email" name="email"/>
+
           <label>Пароль</label>
-            <input class="form" type="text" name="password"/>
-          </div>
+          <input class="form" type="password" name="password"/>
+
+          
+          <input type="checkbox" id="politics" onclick="check();" value="" autocomplete="on"/>
+          <label for="politics">Я знаком с условиями доступа</label>
+
           <div class="bt4">
           <a href="#"><button>Войти</button></a>
           </div>
           </div>
-
         </form>
     </div>
     </body>

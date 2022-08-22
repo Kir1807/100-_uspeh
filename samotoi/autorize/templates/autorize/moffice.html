@@ -32,7 +32,7 @@
       <a href="#">
       <div class='nik'>
           <img src="{% static 'autorize/img/user.png'%}"></img>
-          <h4>Кирилл</h4>
+          <h4>Админ</h4>
           </div>
         </a>
     </div>
@@ -42,7 +42,7 @@
         <div class="block_1">
             <div class="nav_1">
                 <img class="user_2" src="{% static 'autorize/img/user2.png'%}"></img>
-                <h2 class="name_1">Илья Кириллов</h2>
+                <h2 class="name_1">Админ</h2>
                 <div class="line_1"></div>
                 <div class="nav_2">
               <nav>
@@ -59,23 +59,31 @@
         </div>
         <div class="block_2">
             <h1>
-              Ваши тесты
+              Добавление пользователей
             </h1>
-          <a class="testcard" href="/test">
-           <div class="test_1">
-             <div class="heading_1" >
-              <h2 class="name_2">Способности</h2>
-              <p class="name_3">Тип: Обучающийся</p>
-            </div>
-            </div>
-          </a>
+            <form method="post" name="adding-users" action="#"  required>
+               <label id="name">ФИО</label>
+              <input class="form" type="text" name="fio" id="name"/>
+  
+               <label for="e-mail">E-mail</label>
+              <input class="form" type="email" name="mail" id="email"/>
+
+              <label for="password">Пароль</label>
+              <input class="form" type="password" name="password" id="password"/>
+
+              <label for="phone">Телефон</label>
+              <input class="form" type="tel" name="tel" id="phone"/>
+    
+              <a href="#"><button class="adding ">Добавить</button></a>
+              </div>
+              </form>
         </div>
  </div>
   </body>
 
 <footer>
     <div class="footer1">
-      <img width="61" height="75" src="{% static 'autorize/img/user.png'%}"/>
+      <img width="61" height="61" src="{% static 'autorize/img/user.png'%}"/>
     </div>
     <div class="footer2">
       <ul>
