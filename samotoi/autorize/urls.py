@@ -11,9 +11,9 @@ urlpatterns = [
     path('login', views.login, name='form'),
     path('logout', views.logout, name='form'),
     path('profile', views.profile),
-    path('history', views.mytest),
+    #path('history', views.mytest),
     path('results', views.results),
-    path('test', views.test),
+    #path('test', views.test),
     path('consultation', views.consultation),
 
     # path('<pk>/', views.quiz_view),
